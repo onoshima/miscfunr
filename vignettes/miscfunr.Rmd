@@ -1,0 +1,25 @@
+---
+title: "miscfunr"
+author: "Takahiro Onoshima"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{miscfunr}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(miscfunr)
+```
+
+# About miscfunr
+
+miscfunr is a small collection of useful functions.
